@@ -1,7 +1,7 @@
 // Test away
 
 import React from 'react';
-import renderer from 'react-test-renderer';
+//import renderer from 'react-test-renderer';
 
 // no default export, so we're importing everything from this library
 import * as rtl from "@testing-library/react";
