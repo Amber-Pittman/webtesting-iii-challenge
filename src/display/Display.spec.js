@@ -6,7 +6,7 @@ import Display from "./Display";
 
 afterEach(rtl.cleanup);
 
-test("<Display /> snapshot", () => {
+test("<Display /> snapshot", async () => {
     const wrapper = rtl.render(<Display />);
   //await wrapper.findByAltText(/XXX/i);
     // using a regular expression instead of a string allows our
