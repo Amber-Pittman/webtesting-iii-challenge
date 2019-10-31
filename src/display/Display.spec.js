@@ -14,4 +14,4 @@ test("<Display /> snapshot", () => {
     // all uppercase, we don't want our test to break
 
     expect(wrapper.asFragment()).toMatchSnapshot();
-})
+}) 
